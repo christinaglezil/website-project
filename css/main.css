@@ -1,0 +1,158 @@
+/***Html Page***/
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #2b2b2b;
+}
+
+/***Navigation Page Sizes***/
+#about, #content{
+  height: 600px;
+}
+#marketing, #design{
+  height: 700px;
+}
+#audience{
+  height: 1600px;
+}
+
+/***Div Containers***/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/***Header/Webpage Title***/
+
+header{
+  height: 800px;
+  background: url('../img/desk.jpg');
+  background-size: cover;
+  opacity: 0.8;
+}
+
+header h1{
+  font-family: 'Lora';
+  font-size: 30px;
+  color: #bbc085;
+  padding: 65px 0 65px 25px;
+}
+nav{
+  float: right;
+  padding: 75px 25px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  padding-left: 80px;
+}
+header h2{
+  font-family: 'Lora';
+  font-size: 73px;
+  width: 1000px;
+  clear: both;
+  line-height: 80px;
+  text-shadow: 4px 3px 1px #000000;
+  color: #9b9b9b;
+  padding: 20px 0 20px 25px;
+}
+header h2 span{
+  color: #2b2b2b;
+}
+
+/****About & Content Strategies Section****/
+#about .full-width, #content .full-width{
+  padding: 80px 0;
+}
+
+#about h2, #content h2{
+  font-family: 'Lora';
+  font-size: 36px;
+  padding-left: 50px;
+}
+#about p, #content p{
+  font-size: 21px;
+  color: #7f7f7f;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/***Marketing & Design Strategies Section***/
+#marketing, design-strategies{
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+#marketing .full-width, #design .full-width{
+  padding: 115px 0;
+}
+
+#marketing img, design-strategies img{
+  padding-bottom: 30px;
+}
+
+#marketing h3, design-strategies h3{
+  font-size: 24px;
+  line-height: 32px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+#marketing p, design-strategies p{
+  font-family: 'Lora';
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 50px;
+}
+
+/***Audience Intent Section***/
+
+#audience .full-width{
+  padding: 80px 0;
+}
+
+#audience h2{
+  font-family: 'Lora';
+  font-size: 36px;
+  padding-left: 50px;
+}
+#audience p, ul{
+  font-size: 21px;
+  color: #7f7f7f;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+
+/*************************/
+footer {
+    background-color: #7f7f7f;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
